@@ -65,7 +65,7 @@ public class MaximumNonAjdcentSum {
             prev1 = ans;
         }
 
-        return ans;
+        return prev1;
     }
 
     public static void main(String[] args) {
