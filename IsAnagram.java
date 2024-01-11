@@ -17,10 +17,9 @@ public class IsAnagram {
             } 
             else {
                 map1.put(ch,1);
-            }
-            
+            }        
         }
-        
+
         System.out.println(map1);
         for(int i = 0; i < t.length(); i++) {
             char ch = t.charAt(i);
